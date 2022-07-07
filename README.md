@@ -47,13 +47,53 @@ git config --global user.email 'jane@example.com'
 ## 4. Git going! 
 
 
+### 4.1 Forking
+To start working with this repository and changing things, you need your own copy of it. You achieve this by "forking" the original repo. Just select "Fork" in the menu above.
+![](images/fork-repo.png)
 
+Now as you own a perfect copy of this repo, you can download it to your own machine. In git we call this "cloning".
+
+To clone the repo we use the terminal (Mac / Linux) or Git Bash (Windows).
+
+First we want to navigate to the folder on your machine where we want to store the repo. The command we use is ```cd```, which stands for "change directory" and ```mkdir``` which means "make directory. You can use ```cd```sequentually to find the right folder. This can look like the following on my machine.
+
+```
+cd Documents
+cd Hack_and_Harvest
+mkdir Git_Workshop
+cd Git_Workshop
+```
+With these commands we navigated from my home folder to Documents and then into the folder "Hack_and_Harvest". Inside this folder we created the new folder "Git_Workshop" and afterwards navigated into this (so far) empty folder. Depending on how you your file system looks like, this will look different for you and you might have to adapt the folder names. To check where you are right now with the terminal you can use ```ls``` to get a list of folders and files inside your current (terminal) folder.
+
+
+### 4.2 Cloning
+When we finally arrive in our target folder where we want to store this repo, we can clone it!
+
+Therefore just use:
+
+```
+git clone https://github.com/{your_github_username}/git-newbie-hack_and_harvest
+```
+
+If you are doing this the first time you will need to prove to Github who you are. Just fill in your Github username and passwort in the promt:
+
+![](images/core-cred-manager-popup.png) 
+
+Git should clone your repository. You can confirm it is there by running `ls` in your Git bash window
+
+```
+ls
+```
+
+`git-newbie-hack_and_harvest` should be in the list.
+
+Awesome! Now you can start playing around with the repo! 🚀
 
 # Resources
 ## Read
 - [Git Book - Git Basics Chapter](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository): very good overview! 
-- [Happy Git with R](https://happygitwithr.com/): R in RStudio
 - [Git our sh*t together - VSCode](https://gost.netlify.app/en/2019-12-01_correlaid-meetup-berlin/#1): a similar workshop to this one but with the excellent Git VSCode extension
+- [Git bascis - Most important commands](https://rogerdudler.github.io/git-guide/): extremely helpful resource and 90% of commands you ever need!
 
 ## Practice 
 - [Git Katas](https://github.com/muses-code-js/git-katas): command line Git through focused exercises
