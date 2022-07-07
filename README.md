@@ -75,7 +75,7 @@ Therefore just use:
 git clone https://github.com/{your_github_username}/git-newbie-hack_and_harvest
 ```
 
-If you are doing this the first time you will need to prove to Github who you are. Just fill in your Github username and passwort in the promt:
+If you are doing this the first time you will need to prove to Github who you are. Just fill in your Github username and passwort in the prompt:
 
 ![](images/core-cred-manager-popup.png) 
 
