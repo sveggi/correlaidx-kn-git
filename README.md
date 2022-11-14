@@ -1,4 +1,6 @@
-# git-newbie-playground
+![CorrelAid X Konstanz Header](https://github.com/CorrelAid/correlaidx-kn-git/blob/main/assets/img/header.png?raw=true)
+
+# CorrelAidXKonstanz - Git & Github for Newbies
 This is a repository for Git newbies to fork and play with. 
 
 
